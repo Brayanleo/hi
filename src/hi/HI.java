@@ -5,24 +5,18 @@
  */
 package hi;
 
-/**
- *
- * @author Estudiante
- */
+   import java.util.*;
 public class HI {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        int a;
-        a=2;
+
+    public static void main(String[] args) {   
         
-        char b[]={'E','l',' ','B','r','a','y','a','n'};
-        
-        System.out.println("Hola mundo");
-        System.out.println(a);
-        System.out.println(b[0]);
+        Scanner lectura = new Scanner(System.in);
+        for(int t=0;t<3;t++){
+        System.out.println("# UNO");
+        int x=lectura.nextInt();
+        System.out.println("Usted ingreso:"+x);
+        }
         
     }
            
